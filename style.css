@@ -1,5 +1,6 @@
 *{
     font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    color:rgb(40,48,57);
 }
 html{
     scroll-snap-type: y mandatory;
@@ -21,13 +22,22 @@ body{
 .name-surname{
     font-size: 7rem;
     font-weight: bold;
-    color:#f1f1f1; 
+    color:rgb(252,248,247); 
 }
 .main-info{
     margin:10px; 
     font-size: 1rem;
-    color:#f1f1f1; 
+    color:rgb(252,248,247); 
 }
+.main-info span{
+    overflow: hidden; 
+    border-right: 0.7em solid rgb(252,248,247);
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret-top 1s step-end infinite;
+  }
 .main-info-container{
     text-align:left ; 
 }
@@ -56,14 +66,50 @@ nav ul li{
     color:rgb(40,48,57);
 }
 .project-container{
-    text-align: left;
     width: 90%;
     height:80vh;
     display:flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    align-items: center;
-    justify-content: space-around;
     background-color: rgba(252,248,247, 0.3);
+    align-items: center;
+}
+.project-image{
+    width:50%;
+}
+.project-image img{
+    max-width:100%;
+    max-height: 50%;
+}
+.project-info{
+    text-align: left;
+    width:50%;
+}
+.project-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin:10px;
+}
+.info{
+    font-size: 1.5rem;
+    margin:10px 10px 25px 10px; 
+}
+.project-code{
+    margin:10px;
+}
+
+.project-code span{
+    overflow: hidden; 
+    border-right: 0.7em solid rgb(40,48,57);
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret 1s step-end infinite;
+  }
+  
+
+.spacer{
+    margin:20px;
 }
 footer{
     background-color: rgb(40,48,57);
@@ -80,13 +126,16 @@ footer div ul li{
     color:rgb(252,248,247);
     padding:10px 25px 10px 25px;
 }
-
+footer div ul li a{
+    text-decoration: none;
+    color:rgb(252,248,247);
+}
 ::-webkit-scrollbar {
     width: 5px;
   }
   
   ::-webkit-scrollbar-track {
-    background: rgb(252,248,247)
+    background: rgb(252,248,247);
     opacity: 1;
   }
    
@@ -96,4 +145,18 @@ footer div ul li{
   
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(40,48,57);
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(40,48,57); }
+  }
+  @keyframes blink-caret-top {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(252,248,247); }
   }
