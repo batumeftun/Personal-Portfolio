@@ -10,7 +10,9 @@ html{
 body{
     margin:0;
 }
-
+a{
+    font-size: large;
+}
 nav{
     background-color: rgb(252,248,247);
     width:100%;
