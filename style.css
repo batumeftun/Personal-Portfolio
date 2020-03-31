@@ -1,6 +1,6 @@
 *{
     font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-
+    font-size:1rem;
     color:rgb(40,48,57);
 }
 html{
@@ -9,6 +9,7 @@ html{
 body{
     margin:0;
 }
+
 nav{
     background-color: rgb(252,248,247);
     width:100%;
@@ -88,6 +89,19 @@ nav div a{
     text-align: left;
     width:50%;
 }
+@media screen and (max-width: 992px) {
+    .project-container{
+        flex-direction: column;
+    }
+    .project-image{
+        width:100%;
+    }
+    .project-info{
+        text-align: left;
+        width:100%;
+    }
+  }
+
 .project-title{
     font-weight: bold;
     margin:10px;
