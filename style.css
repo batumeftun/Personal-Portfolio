@@ -1,6 +1,7 @@
 *{
     font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
     color:rgb(40,48,57);
+    font-size: large;
 }
 
 html{
@@ -11,7 +12,6 @@ body{
     margin:0;
 }
 a{
-    font-size: large;
 }
 nav{
     background-color: rgb(252,248,247);
