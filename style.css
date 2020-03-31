@@ -194,8 +194,8 @@ body{
     from, to { border-color: transparent }
     50% { border-color: rgb(252,248,247); }
   }
-  
-  @media screen and (max-width: 600px) {
+
+  @media screen and (max-width: 768px) {
     .project-container{
         flex-direction: column;
     }
@@ -206,4 +206,5 @@ body{
         text-align: left;
         width:100%;
     }
+
 }
