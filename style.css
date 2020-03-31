@@ -1,11 +1,12 @@
 *{
     font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-    font-size:1rem;
     color:rgb(40,48,57);
 }
+
 html{
     scroll-snap-type: y mandatory;
 }
+
 body{
     margin:0;
 }
@@ -20,15 +21,18 @@ nav{
     align-items: center;
     justify-content: center;
 }
+
 nav div{
     display: inline;
     padding:0;
     margin:0;
     color:rgb(40,48,57);
 }
+
 nav div a{
     text-decoration: none;
 }
+
 .content{
     background-color:rgb(241,109,86);
     width:100%;
@@ -44,10 +48,12 @@ nav div a{
     font-weight: bold;
     color:rgb(252,248,247); 
 }
+
 .main-info{
     margin:10px; 
     color:rgb(252,248,247); 
 }
+
 .main-info span{
     overflow: hidden; 
     border-right: 0.7em solid rgb(252,248,247);
@@ -56,16 +62,20 @@ nav div a{
     animation: 
       typing 3.5s steps(40, end),
       blink-caret-top 1s step-end infinite;
-  }
+}
+
 .main-info-container{
     text-align:left ; 
 }
+
 .pr1{
     background-color:rgb(238,181,62);
 }
+
 .pr2{
     background-color:rgb(0,91,169);
 }
+
 .pr3{
     background-color:rgb(87,150,104);
 }
@@ -78,18 +88,22 @@ nav div a{
     background-color: rgba(252,248,247, 0.3);
     align-items: center;
 }
+
 .project-image{
     width:50%;
 }
+
 .project-image img{
-    max-width:100%;
+    max-width:80%;
     max-height: 50%;
 }
+
 .project-info{
     text-align: left;
     width:50%;
 }
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 600px) {
     .project-container{
         flex-direction: column;
     }
@@ -100,15 +114,17 @@ nav div a{
         text-align: left;
         width:100%;
     }
-  }
+}
 
 .project-title{
     font-weight: bold;
     margin:10px;
 }
+
 .info{
     margin:10px 10px 25px 10px; 
 }
+
 .project-code{
     margin:10px;
 }
@@ -121,11 +137,12 @@ nav div a{
     animation: 
       typing 3.5s steps(40, end),
       blink-caret 1s step-end infinite;
-  }
+}
 
 .spacer{
     margin:20px;
 }
+
 footer{
     position: fixed;
     bottom:0;
@@ -142,6 +159,7 @@ footer{
     border-right: 40px solid rgba(40,48,57,1);
     border-left: 40px solid rgba(40,48,57,1);
 }
+
 .footer-link{
     background-color:rgba(40,48,57,1);
     color:rgb(252,248,247);
@@ -152,22 +170,27 @@ footer{
     display: flex;
     align-items: center;
 }
+
 .link-left{
     justify-content: flex-start;
 }
+
 .link-right{
     justify-content: flex-end;
 }
+
 footer div div{
     display:inline;
     color:rgb(252,248,247);
     padding:0;
     margin:0;
 }
+
 footer div div a{
     text-decoration: none;
     color:rgb(252,248,247);
 }
+
 ::-webkit-scrollbar {
     width: 5px;
   }
