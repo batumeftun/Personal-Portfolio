@@ -23,15 +23,15 @@ nav div{
     padding:0;
     margin:0;
     color:rgb(40,48,57);
-    font-size: 2rem;
 }
 nav div a{
     text-decoration: none;
+    font-size: 1rem;
 }
 .content{
     background-color:rgb(241,109,86);
     width:100%;
-    height:100vh;
+    min-height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +73,7 @@ nav div a{
 
 .project-container{
     width: 90%;
-    height:80vh;
+    min-height:80vh;
     display:flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgba(252,248,247, 0.3);
@@ -117,7 +117,6 @@ nav div a{
     margin:20px;
 }
 footer{
-    background-color: rgb(40,48,57);
     position: fixed;
     bottom:0;
     width:100%;
@@ -125,6 +124,29 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.cornered{
+    height: 0px;
+    border-top: 3rem solid rgba(40,48,57,0);
+    border-right: 40px solid rgba(40,48,57,1);
+    border-left: 40px solid rgba(40,48,57,1);
+}
+.footer-link{
+    background-color:rgba(40,48,57,1);
+    color:rgb(252,248,247);
+    padding:0;
+    margin:0;
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.link-left{
+    justify-content: flex-start;
+}
+.link-right{
+    justify-content: flex-end;
 }
 footer div div{
     display:inline;
