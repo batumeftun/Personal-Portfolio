@@ -1,7 +1,6 @@
 *{
     font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
     color:rgb(40,48,57);
-    font-size: large;
 }
 
 html{
@@ -11,6 +10,7 @@ html{
 body{
     margin:0;
 }
+
 .nav{
     background-color: rgb(252,248,247);
     width:100%;
@@ -20,6 +20,12 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
+}
+
+.nav-link{
+    font-size:1.1rem;
+    color:rgb(40,48,57);
+    text-decoration: none;
 }
 
 .content{
@@ -41,6 +47,7 @@ body{
 .main-info{
     margin:10px; 
     color:rgb(252,248,247); 
+    font-size: 20px;
 }
 
 .main-info span{
@@ -108,14 +115,17 @@ body{
 .project-title{
     font-weight: bold;
     margin:10px;
+    font-size: 20px;
 }
 
 .info{
     margin:10px 10px 25px 10px; 
+    font-size: 2em;
 }
 
 .project-code{
     margin:10px;
+    font-size: 2rem;
 }
 
 .project-code span{
@@ -132,7 +142,7 @@ body{
     margin:20px;
 }
 
-footer{
+.footer{
     position: fixed;
     bottom:0;
     width:100%;
@@ -151,7 +161,6 @@ footer{
 
 .footer-link{
     background-color:rgba(40,48,57,1);
-    color:rgb(252,248,247);
     padding:0;
     margin:0;
     width:100%;
@@ -168,16 +177,10 @@ footer{
     justify-content: flex-end;
 }
 
-footer div div{
-    display:inline;
-    color:rgb(252,248,247);
-    padding:0;
-    margin:0;
-}
-
-footer div div a{
+.footer-link-a{
     text-decoration: none;
     color:rgb(252,248,247);
+    font-size: large;
 }
 
 ::-webkit-scrollbar {
