@@ -43,8 +43,14 @@ body{
     color:rgb(252,248,247); 
 }
 
+
+.main-info-container{
+    text-align:left ; 
+    width:90%;
+}
 .main-info{
-    margin:10px; 
+    width:100%; 
+    margin-top:10px;
     color:rgb(252,248,247); 
 }
 
@@ -56,10 +62,6 @@ body{
     animation: 
       typing 3.5s steps(40, end),
       blink-caret-top 1s step-end infinite;
-}
-
-.main-info-container{
-    text-align:left ; 
 }
 
 .pr1{
