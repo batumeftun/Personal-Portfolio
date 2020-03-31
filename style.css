@@ -1,6 +1,6 @@
 *{
     font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-    font-size: 1rem;
+
     color:rgb(40,48,57);
 }
 html{
@@ -27,7 +27,6 @@ nav div{
 }
 nav div a{
     text-decoration: none;
-    font-size: 1rem;
 }
 .content{
     background-color:rgb(241,109,86);
@@ -41,13 +40,11 @@ nav div a{
     scroll-snap-align: start;
 }
 .name-surname{
-    font-size: 7rem;
     font-weight: bold;
     color:rgb(252,248,247); 
 }
 .main-info{
     margin:10px; 
-    font-size: 1rem;
     color:rgb(252,248,247); 
 }
 .main-info span{
@@ -92,12 +89,10 @@ nav div a{
     width:50%;
 }
 .project-title{
-    font-size: 2rem;
     font-weight: bold;
     margin:10px;
 }
 .info{
-    font-size: 1.5rem;
     margin:10px 10px 25px 10px; 
 }
 .project-code{
@@ -125,7 +120,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size:1rem;
 }
 
 .cornered{
