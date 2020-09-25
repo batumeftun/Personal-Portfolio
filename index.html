@@ -4,112 +4,216 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Safa ERDEN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body>
-    <nav class="nav">
-      <a class="nav-link" href="#Projects">Projects</a>
-      <div class="spacer"></div>
-      <a class="nav-link" href="#Articles">Articles</a>
+
+  
+  <body class="min-vh-100"> 
+    <nav>
+      <div class="container-fluid header d-flex fixed-top align-items-center">
+        <div class="container d-flex justify-content-between">
+            <div class="logo col-4 d-none d-md-flex nav-logo text-uppercase align-items-center h3 font-weight-bold m-0">
+              <div class="d-flex justify-content-around align-items-center social-header">
+                <a target="_blank" href="https://github.com/SafaErden"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/safaerden/"><i class="fab fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://twitter.com/safaerden"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="d-flex justify-content-around col-12 col-md-8 h6 p-0 font-weight-bold m-0 align-items-center">
+                <a class="nav-link text-uppercase" href="mailto:safaerden@gmail.com?subject=Hello">Contact</a>
+                <a class="nav-link text-uppercase" href="#Projects">Projects</a>
+                <a class="nav-link text-uppercase" href="#Articles">Articles</a>
+            </div>
+        </div>
+      </div>
     </nav>
+
+
     <main>
-      <div class="content main">
-        <div class="name-surname">
-          SAFA ERDEN
+      <div class="intro container-fluid d-flex min-vh-100 p-0 bg-one position-relative">
+        <div class="container d-flex justify-content-center align-items-center  text-center  flex-column">
+        <h1 class="text-uppercase display-3 font-weight-bold m-0 logo intro-name text-white ">
+            Safa Erden
+        </h1>
+        <span class="m-3 three-dots h3">...</span>
+        <h2 class="intro-titr h4 mt-3">Software Developer</h2>
         </div>
-        <div class="main-info">...</div>
-        <div class="main-info-container">
-          <div class="main-info">> Safa.info</div>
-          <div class="main-info">
-            "I am a Full-Stack developer student at Microverse. My passion is
-            building simple, beautiful user experiences.Check out my projects
-            below."
-          </div>
-          <div class="spacer"></div>
-          <div class="main-info">> Safa.skills</div>
-          <div class="main-info">
-            ["JavaScript", "Ruby", "React", "Redux", "Rails", "webpack", "git"]
-          </div>
-          <div class="spacer"></div>
-          <div class="main-info">> Safa.interests</div>
-          <div class="main-info">
-            ["designing", "skiing", "swimming", "hiking"]
-          </div>
-          <div class="main-info">><span>&nbsp;</span></div>
-        </div>  
-      </div>
-      <div class="content pr1" id="Projects">
-        <div class="project-container">
-          <div class="project-image">
-            <img
-              src="https://res.cloudinary.com/yemreaybey/image/upload/v1580890022/newsweek-portfolio-min_yrpq7w.png"
-              alt="youtube clone"
-            />
-          </div>
-          <div class="project-info">
-            <div class="project-title">Youtube Player Page Clone</div>
-            <div class="info">A basic Youtube Player Page Replica.</div>
-            <div class="project-code">> Used.stacks</div>
-            <div class="project-code">
-              ["HTML", "CSS", "JavaScript", "Ruby"]
+        <div class="footer">
+            <div class="footer-link link-left bg-two">
             </div>
-            <div class="spacer"></div>
-            <div class="project-code">> Source.code</div>
-            <div class="project-code">
-              <a
-                href="https://github.com/SafaErden/Youtube-Player-Page-Replica"
-                target="_blank"
-                >Youtube Player Page Replica Source Code</a
-              >
+            <div  class="cornered-2"></div>
+            <div class="footer-link link-right bg-two">
             </div>
-            <div class="spacer"></div>
-            <div class="project-code">> Live.Demo</div>
-            <div class="project-code">
-              <a
-                href="https://safaerden.github.io/Youtube-Player-Page-Replica/"
-                target="_blank"
-                >Youtube Player Page Live Demo</a
-              >
-            </div>
-            <div class="spacer"></div>
-            <div class="project-code">><span>&nbsp;</span></div>
-          </div>
         </div>
       </div>
-      <div class="content main">
-        <div class="name-surname">
-          Articles
+
+      <div class="intro container-fluid d-flex min-vh-100 p-0 bg-two  position-relative" id="Projects">
+        <div class="container d-flex justify-content-center align-items-center flex-column text-center">
+        <div class="mb-5">
+           <img src="assets/images/projects.jpg" class="rounded-circle projects" alt="projects"> 
         </div>
-        <div class="main-info">...</div>
-        <div class="main-info-container">
-          <div class="main-info">Article No. 1</div>
-          <div class="main-info"> </div>
-          <div class="spacer"></div>
-          <div class="main-info">Article no. 2</div>
-          <div class="main-info"> </div>
-          <div class="spacer"></div>
-          <div class="main-info">Article No. 3</div>
-          <div class="main-info"> </div>
-          <div class="spacer"></div>
-          <div class="main-info">><span>&nbsp;</span></div>
+        <h2 class="intro-titr h1 intro-titr mt-3 text-uppercase font-weight-bold text-dirty">Some Projects</h2>
+        <span class="three-dots h3">...</span>
         </div>
-        <div class="main-info">&copy; 2020 Safa ERDEN</div>
+        <div class="footer">
+            <div class="footer-link link-left bg-zero">
+            </div>
+            <div  class="cornered-0"></div>
+            <div class="footer-link link-right bg-zero">
+            </div>
+        </div>
+      </div>
+
+      <div class="intro container-fluid d-flex min-vh-100 p-0 bg-zero position-relative">
+        <div class="container d-flex justify-content-center align-items-center flex-row">
+          <div class="row w-100">
+            <div class="project-image col-12 col-md-8 d-flex align-items-center justify-content-center">
+              <img src="assets/images/weather.png" alt="weather app">
+            </div>
+            <div class="col-12 col-md-4 text-dark  d-flex flex-column align-items-center justify-content-center text-center">
+              <div class="h2 mb-5">Weather App</div>
+              <div class="h4 mb-4">A simple weather application in which you can search for a location and get that location's weather information.</div>
+              <div class="h6 mb-3">HTML, CSS, JavaScript, OpenWeatherMap API</div>
+              <div class="project-code">
+                <a
+                  class="text-dark"
+                  href="https://github.com/SafaErden/Weather-App"
+                  target="_blank"
+                  >Source</a
+                >
+              </div>
+              <div class="project-code">
+                <a
+                  class="text-dark"
+                  href="https://rawcdn.githack.com/SafaErden/Weather-App/a068e542f677e09f980d0652edb5351ea6d80178/index.html"
+                  target="_blank"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="intro container-fluid d-flex min-vh-100 p-0 bg-dirty position-relative">
+        <div class="container d-flex justify-content-center align-items-center flex-row">
+          <div class="row w-100">
+            <div class="project-image col-12 col-md-8 d-flex align-items-center justify-content-center">
+              <img src="assets/images/icy.png" alt="icy tower">
+            </div>
+            <div class="col-12 col-md-4 text-dark  d-flex flex-column align-items-center justify-content-center text-center">
+              <div class="h2 mb-5">Icy Tower</div>
+              <div class="h4 mb-4">This is a platform game set in a tower, where the player's goal is to jump from one "floor" to the next and go as high as possible without falling. Inspired from the original game Icy Tower</div>
+              <div class="h6 mb-3">JavaScript, Phaser</div>
+              <div class="project-code">
+                <a
+                  class="text-dark"
+                  href="https://github.com/SafaErden/IcyTower"
+                  target="_blank"
+                  >Source</a
+                >
+              </div>
+              <div class="project-code">
+                <a
+                  class="text-dark"
+                  href="https://icytowerreplica.netlify.app/"
+                  target="_blank"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="intro container-fluid d-flex min-vh-100 p-0 bg-zero position-relative">
+        <div class="container d-flex justify-content-center align-items-center flex-row">
+          <div class="row w-100">
+            <div class="project-image col-12 col-md-8 d-flex align-items-center justify-content-center">
+              <img src="assets/images/bookstore.png" alt="book store">
+            </div>
+            <div class="col-12 col-md-4 text-dark  d-flex flex-column align-items-center justify-content-center text-center">
+              <div class="h2 mb-5">Book Store</div>
+              <div class="h4 mb-4">This full-stack web application is built with Rails which enables users to create their own library and publish their own books.</div>
+              <div class="h6 mb-3">HTML, CSS, Ruby, Rails</div>
+              <div class="project-code">
+                <a
+                  class="text-dark"
+                  href="https://github.com/SafaErden/Book-Store"
+                  target="_blank"
+                  >Source</a
+                >
+              </div>
+              <div class="project-code">
+                <a
+                  class="text-dark"
+                  href="https://salty-wildwood-28317.herokuapp.com/"
+                  target="_blank"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="intro container-fluid d-flex min-vh-100 p-0 bg-dirty position-relative">
+        <div class="container d-flex justify-content-center align-items-center flex-row">
+          <div class="row w-100">
+            <div class="project-image col-12 col-md-8 d-flex align-items-center justify-content-center">
+              <img src="assets/images/microverse.png" alt="microverse summit">
+            </div>
+            <div class="col-12 col-md-4 text-dark  d-flex flex-column align-items-center justify-content-center text-center">
+              <div class="h2 mb-5">Microverse Summit</div>
+              <div class="h4 mb-4">This is the capstone project of the Microverse HTML & CSS curriculum. It makes use of float, flex, and grid CSS display positioning styles. Also, the Bootstrap framework is mostly used.</div>
+              <div class="h6 mb-3">HTML, CSS, Bootstrap</div>
+              <div class="project-code">
+                <a
+                  class="text-dark"
+                  href="https://github.com/SafaErden/Microverse-Summit"
+                  target="_blank"
+                  >Source</a
+                >
+              </div>
+              <div class="project-code">
+                <a
+                  class="text-dark"
+                  href="https://safaerden.github.io/Microverse-Summit/"
+                  target="_blank"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="intro container-fluid d-flex min-vh-100 p-0 bg-two"  id="Articles">
+        <div class="container d-flex justify-content-center align-items-center flex-column text-center">
+          <h2 class="intro-titr h1 intro-titr mt-3 text-uppercase font-weight-bold text-dirty">Articles</h2>
+          <span class="mt-3 mb-5 three-dots h3">...</span>
+            <div class="h4 mb-5"> <a class="text-white" target="_blank" href="https://medium.com/@safaerden/a-simple-recipe-to-create-animated-sidenav-without-javascript-539219337ea5">A simple Recipe to Create Animated SideNav without JavaScript</a></div>
+          <div class="mt-5">&copy; 2020 Safa ERDEN</div>
+        </div>
       </div>
     </main>
-    <footer class="footer">
-      <div class="footer-link  link-left">
-        <div class="spacer-footer"></div>
-        <a class="footer-link-a" href="https://www.linkedin.com/in/safaerden/">Linkedin</a>
-        <div class="spacer-footer"></div>
-        <a class="footer-link-a" href="https://github.com/SafaErden">Github</a>
-      </div>
-      <div  class="cornered"></div>
-      <div class="footer-link link-right">
-        <a class="footer-link-a" href="mailto:safaerden@gmail.com?subject=Hello">Mail</a>
-        <div class="spacer-footer"></div>
-        <a class="footer-link-a" href="https://twitter.com/safaerden">Twitter</a>
-        <div class="spacer-footer"></div>
+
+
+    <footer class="intro container-fluid d-flex social">
+      <div class="container d-flex justify-content-around align-items-center  social-links">
+        <a target="_blank" href="https://github.com/SafaErden"><i class="fab fa-github"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/safaerden/"><i class="fab fa-linkedin-in"></i></a>
+        <a target="_blank" href="mailto:safaerden@gmail.com?subject=Hello"><i class="fas fa-envelope"></i></a>
+        <a target="_blank" href="https://twitter.com/safaerden"><i class="fab fa-twitter"></i></a>
       </div>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
