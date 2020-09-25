@@ -8,7 +8,7 @@
 
 .nav-link {
 	display: inline-block;
-	color: #99a0b0;
+	color: #6f788e;
 	background: transparent;
 }
 
@@ -105,6 +105,10 @@
 	background-color: rgba(40, 48, 57, 1);
 }
 
+.bg-dirty {
+	background-color: hsla(240, 17%, 99%, 0.97);
+}
+
 .project-image img {
 	object-fit: cover;
 	width: 100%;
@@ -141,7 +145,7 @@
 	display: inline-block;
 	border-radius: 50%;
 	border: 0;
-	color: #c2c8d6;
+	color: #fff;
 	background: #56617a;
 	display: flex;
 	align-items: center;
@@ -149,6 +153,27 @@
 }
 
 .social-links a:hover {
+	color: #f27f7a;
+	text-decoration: none;
+}
+
+.social-header a {
+	width: 3em;
+	height: 2em;
+	line-height: 1.25em;
+	font-size: 0.7em;
+	text-align: center;
+	text-indent: 0;
+	display: inline-block;
+	border-radius: 50%;
+	border: 0;
+	color: #56617a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-header a:hover {
 	color: #f27f7a;
 	text-decoration: none;
 }
