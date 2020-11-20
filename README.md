@@ -12,7 +12,7 @@
 
 ## Live Link
 
-[safaerden.com](https://eee.safaerden.com/)
+[safaerden.com](https://www.safaerden.com/)
 
 ## Author
 
