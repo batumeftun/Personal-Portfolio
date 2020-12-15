@@ -40,7 +40,7 @@
 }
 
 .three-dots:hover:after {
-	content: "HTML, CSS, JavaScript, Ruby, Rails, React, Rspec, Capybara, Jest, Phaser, PHP, SQL, Mql4, Bootstrap...";
+	content: "HTML, CSS, JavaScript, NodeJs, Ruby, Rails, React, Rspec, Capybara, Jest, Phaser, PHP, SQL, Mql4, Bootstrap...";
 }
 
 .intro-titr {
@@ -103,7 +103,6 @@
 
 .projects {
 	object-fit: cover;
-	width: 400px;
 }
 
 .text-dirty {
